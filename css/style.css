@@ -1,0 +1,129 @@
+
+html, body {
+	font-family: Helvetica, Arial, sans-serif;
+	background-color: #FFF;
+	height: 100%;
+	font-size: 100%;
+	color: #000;
+	margin: 0;
+	padding: 0;
+}
+
+
+/*----------Header-styles----------*/
+h1 {
+	font-size: 4em;
+	font-weight: 100;
+	line-height: 1.9;
+	
+}
+
+h1 span {
+	font-weight: 600;
+}
+
+#last{
+	font-family: "texgyreherosregular";
+	font-weight: 100;
+}
+
+h2 {
+	font-family: "texgyreherosregular";
+	font-size: 1em;
+	font-weight: 100;
+	line-height: 1.9;
+}
+
+/*----------Wrappers----------*/
+
+.header_wrapper{
+	width: 100%;
+	background: #333333;
+	overflow: hidden;
+	font-family: "Lato Hairline";
+	color: #FFF;
+	text-align: center;
+}
+
+.header_name{
+	margin-bottom: -4em;
+}
+
+.content {
+	width: 100%;
+	margin: 0 auto;
+	padding-top: 8em;
+	text-align: center;
+}
+
+
+/*----------Button-styles----------*/
+
+.btn{
+	font-family: "texgyreherosregular";
+	display: inline-block;
+	margin-bottom: 0em;
+	cursor: pointer;
+	border-bottom: 0.4em solid;
+	margin-bottom: 0.4em;
+}
+
+.btn_ico{
+	font-size: 2em;
+	padding: 0.2em;
+	vertical-align: middle;
+}
+
+.btn_ico_x2{
+	font-size: 2em;
+	padding: 0.2em;
+	vertical-align: middle;
+}
+
+.btn_slim{
+	background: #333;
+	color: #FFF;
+	padding: 0.4em 5em;
+	width: 10em;
+}
+
+.btn_contact{
+	background: #333;
+	color: #FFF;
+	padding: 0.4em 5em;
+	width: 27em;
+}
+
+.btn, a{
+	text-decoration: none;
+}
+
+.btn:hover{
+	
+}
+
+.btn_text{
+	margin-left: 1em;
+}
+
+.btn_linked{
+	border-bottom-color: #FB4485;
+	
+}
+
+.btn_project{
+	border-bottom-color: #FDA333;
+}
+
+.btn_git{
+	border-bottom-color: #6CE0F1;
+	
+}
+
+.btn_mail{
+	border-bottom-color: #C2E15F;
+}
+
+.contact_button{
+	padding-top: 2em;
+}
